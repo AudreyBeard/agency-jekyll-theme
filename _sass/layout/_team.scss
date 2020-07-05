@@ -5,8 +5,16 @@
   img {
     display: block;
     position: absolute;
-    left: 50%
-    bottom: 50%
+    left: 0px
+    bottom: 0px
+    -ms-transform:translate(50%); /* IE 9 */
+	-ms-transform-origin: 0 0;
+    -moz-transform:translate(50%); /* Firefox */
+	-moz-transform-origin: 0 0;
+    -webkit-transform:translate(50%); /* Safari and Chrome */
+    -webkit-transform-origin:0 0;
+    -o-transform:translate(50%); /* Opera */
+	-o-transform-origin: 0 0;
     //width: 225px;
     //height: 225px;
     //text-align: center;
